@@ -1,2 +1,4 @@
-# CMBS
-cross modal background suppression for audio-visual event localization
+## CMBS
+Cross Modal Background Suppression for Audio-Visual Event Localization
+
+This is a pytorch implementation for
