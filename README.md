@@ -26,6 +26,7 @@ After downloading the features, please place them into the `data` folder.
 
 ### Fully-Supervised Setting
 The `configs/main.json` contains the main hyper-parameters used for fully-supervised training.
+
 Training 
 ```bash
 bash supv_train.sh
@@ -37,6 +38,7 @@ bash supv_test.sh
 ```
 ### Weakly-Supervised Setting
 The `configs/weak.json` contains the main hyper-parameters used for weakly-supervised training.
+
 Training 
 ```bash
 bash weak_train.sh
