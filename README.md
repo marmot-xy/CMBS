@@ -21,6 +21,30 @@ The noisy visual features used for weakly-supervised setting can be downloaded f
 
 After downloading the features, please place them into the `data` folder.
 
+
+## Training and Evaluating CMBS
+
+### Fully-Supervised Setting
+Training 
+```bash
+bash supv_train.sh
+```
+Evaluating
+
+```bash
+bash supv_test.sh
+```
+###Weakly-Supervised Setting
+Training 
+```bash
+bash weak_train.sh
+```
+Evaluating
+
+```bash
+bash weak_test.sh
+```
+
 ## Pretrained model
 The pretrained models can be downloaded from [Supervised model][Supervised_model] and [WeaklySupervised model][WeaklySupervised_model].
 
