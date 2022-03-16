@@ -5,8 +5,12 @@ This is a pytorch implementation for CVPR 2022 paper "Cross Modal Background Sup
 
 The pretrained models can be downloaded from [Supervised model][Supervised_model] and [WeaklySupervised model][WeaklySupervised_model].
 
+## Data preparation
+The VGG visual features can be downloaded from [Visual_feature][https://drive.google.com/file/d/1hQwbhutA3fQturduRnHMyfRqdrRHgmC9/view?usp=sharing]
 
+The VGG-like audio features can be downloaded from [Audio_feature][https://drive.google.com/file/d/1F6p4BAOY-i0fDXUOhG7xHuw_fnO5exBS/view?usp=sharing]
 
+The noisy visual features used for weakly-supervised setting can be downloaded from [Noisy_visual_feature][https://drive.google.com/file/d/1I3OtOHJ8G1-v5G2dHIGCfevHQPn-QyLh/view?usp=sharing]
 
 
 
