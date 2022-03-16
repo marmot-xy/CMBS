@@ -62,7 +62,7 @@ bash weak_test.sh
 ## Pretrained model
 The pretrained models can be downloaded from [Supervised model][Supervised_model] and [WeaklySupervised model][WeaklySupervised_model].
 
-After downloading the pretrained models, please place them into the `Exps` floder.
+After downloading the pretrained models, please place them into the `Exps` folder.
 
 ## Acknowledgement
 
