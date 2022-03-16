@@ -1,6 +1,6 @@
 tqdm==4.40.0
-numpy==1.19.1
+numpy==1.21.5
 h5py==2.10.0
-torch==1.2.0
+torch==1.10.2
 tensorboardX==2.1
 ruamel.yaml
