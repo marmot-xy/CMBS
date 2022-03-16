@@ -1,0 +1,12 @@
+{
+  "model": {
+    "name": "weak_main_model",
+    "video_inputdim": 512,
+    "audio_inputdim": 128,
+    "d_model": 256,
+    "alpha": 0.2,
+    "gamma": 0.5,
+    "beta": 0.5
+  }
+
+}
