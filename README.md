@@ -34,7 +34,7 @@ Evaluating
 ```bash
 bash supv_test.sh
 ```
-###Weakly-Supervised Setting
+### Weakly-Supervised Setting
 Training 
 ```bash
 bash weak_train.sh
