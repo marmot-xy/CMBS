@@ -12,6 +12,16 @@ Hence, this paper proposes a novel cross-modal background suppression method con
 
 ![AVE](figs/AVE_demo.png)
 
+## Prerequisites
+
+This package has the following requirements:
+
+* `Python 3.7.6`
+* `Pytorch 1.10.2`
+* `CUDA 11.4`
+* `h5py 2.10.0` 
+* `numpy 1.21.5`
+
 ## Data preparation
 The VGG visual features can be downloaded from [Visual_feature](https://drive.google.com/file/d/1hQwbhutA3fQturduRnHMyfRqdrRHgmC9/view?usp=sharing)
 
