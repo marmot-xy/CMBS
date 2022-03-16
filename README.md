@@ -4,7 +4,11 @@
 This is a pytorch implementation for CVPR 2022 paper "Cross Modal Background Suppression for Audio-Visual Event Localization"
 
 ## Introduction
-We are concerned about an important problem: audio-visual event localization, which requires the model to recognize the event category and localize the event boundary when the event is both audible and visible at the same time. Unlike previous methods, we consider the problem of audio-visual event localization from the viewpoint of cross-modal background suppression. We first define the "background" category from two aspects: 1) If the audio and visual information in the small video segment do not represent the same event, then the video segment will be labeled as background. 2) If an event only occurs in one modality but has a low probability in another, then this event category will be labeled as background in this video, i.e., offscreen voice. Hence, this paper proposes a novel cross-modal background suppression method considering two aspects: time-level and event-level, which allow the audio and visual modalities to serve as the supervisory signals complementing each other to solve the aforementioned AVE task problems.
+We are concerned about an important problem: audio-visual event localization, which requires the model to recognize the event category and localize the event boundary when the event is both audible and visible at the same time. 
+
+Unlike previous methods, we consider the problem of audio-visual event localization from the viewpoint of cross-modal background suppression. We first define the "background" category from two aspects: 1) If the audio and visual information in the small video segment do not represent the same event, then the video segment will be labeled as background. 2) If an event only occurs in one modality but has a low probability in another, then this event category will be labeled as background in this video, i.e., offscreen voice. 
+
+Hence, this paper proposes a novel cross-modal background suppression method considering two aspects: time-level and event-level, which allow the audio and visual modalities to serve as the supervisory signals complementing each other to solve the AVE task problems.
 
 ![AVE](figs/AVE_demo.png)
 
