@@ -1,7 +1,7 @@
 # Cross Modal Background Suppression for Audio-Visual Event Localization
 
 
-This is a pytorch implementation for CVPR 2022 paper "Cross Modal Background Suppression for Audio-Visual Event Localization"
+This is a pytorch implementation for CVPR 2022 paper "Cross Modal Background Suppression for Audio-Visual Event Localization".
 
 ## Introduction
 We are concerned about an important problem: audio-visual event localization, which requires the model to recognize the event category and localize the event boundary when the event is both audible and visible at the same time. 
@@ -23,14 +23,15 @@ This package has the following requirements:
 * `numpy 1.21.5`
 
 ## Data preparation
-The VGG visual features can be downloaded from [Visual_feature](https://drive.google.com/file/d/1hQwbhutA3fQturduRnHMyfRqdrRHgmC9/view?usp=sharing)
+The VGG visual features can be downloaded from [Visual_feature](https://drive.google.com/file/d/1hQwbhutA3fQturduRnHMyfRqdrRHgmC9/view?usp=sharing).
 
-The VGG-like audio features can be downloaded from [Audio_feature](https://drive.google.com/file/d/1F6p4BAOY-i0fDXUOhG7xHuw_fnO5exBS/view?usp=sharing)
+The VGG-like audio features can be downloaded from [Audio_feature](https://drive.google.com/file/d/1F6p4BAOY-i0fDXUOhG7xHuw_fnO5exBS/view?usp=sharing).
 
-The noisy visual features used for weakly-supervised setting can be downloaded from [Noisy_visual_feature](https://drive.google.com/file/d/1I3OtOHJ8G1-v5G2dHIGCfevHQPn-QyLh/view?usp=sharing)
+The noisy visual features used for weakly-supervised setting can be downloaded from [Noisy_visual_feature](https://drive.google.com/file/d/1I3OtOHJ8G1-v5G2dHIGCfevHQPn-QyLh/view?usp=sharing).
 
 After downloading the features, please place them into the `data` folder.
 
+If you are interested in the AVE raw videos, please [refer](https://drive.google.com/open?id=1FjKwe79e0u96vdjIVwfRQ1V6SoDHe7kK) to this repo and download the AVE dataset. 
 
 ## Training and Evaluating CMBS
 
@@ -63,6 +64,8 @@ bash weak_test.sh
 The pretrained models can be downloaded from [Supervised model][Supervised_model] and [WeaklySupervised model][WeaklySupervised_model].
 
 After downloading the pretrained models, please place them into the `Exps` folder.
+
+You can try different parameters or random seeds if you want to retrain the model, the results may be better.
 
 ## Acknowledgement
 
