@@ -31,7 +31,7 @@ The noisy visual features used for weakly-supervised setting can be downloaded f
 
 After downloading the features, please place them into the `data` folder.
 
-If you are interested in the AVE raw videos, please [refer](https://drive.google.com/open?id=1FjKwe79e0u96vdjIVwfRQ1V6SoDHe7kK) to this repo and download the AVE dataset. 
+If you are interested in the AVE raw videos, please refer to this [repo](https://drive.google.com/open?id=1FjKwe79e0u96vdjIVwfRQ1V6SoDHe7kK) and download the AVE dataset. 
 
 ## Training and Evaluating CMBS
 
