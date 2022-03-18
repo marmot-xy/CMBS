@@ -173,7 +173,7 @@ def _get_activation_fn(activation):
 
 class New_Audio_Guided_Attention(nn.Module):
     r"""
-    This implementation is slightly different from what we described in the paper, because we later found it to be more efficient.
+    This implementation is slightly different from what we described in the paper, which we later found it to be more efficient.
     
     """
    
