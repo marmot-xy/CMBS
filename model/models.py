@@ -72,7 +72,7 @@ class Decoder(Module):
 
 
 class EncoderLayer(Module):
-    r"""EncoderLayer is mainly made up of self-attention.
+    r"""EncoderLayer, which is borrowed from CMRAN.
 
     Args:
         d_model: the number of expected features in the input (required).
@@ -114,7 +114,7 @@ class EncoderLayer(Module):
 
 
 class DecoderLayer(Module):
-    r"""DecoderLayer is mainly made up of the proposed cross-modal relation attention (CMRA).
+    r"""DecoderLayer, which is borrowed from CMRAN.
 
     Args:
         d_model: the number of expected features in the input (required).
@@ -172,6 +172,11 @@ def _get_activation_fn(activation):
 
 
 class New_Audio_Guided_Attention(nn.Module):
+    r"""
+    This implementation is slightly different from what we described in the paper, because we later found it to be more efficient.
+    
+    """
+   
     def __init__(self, beta):
         super(New_Audio_Guided_Attention, self).__init__()
 
